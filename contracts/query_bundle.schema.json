@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/contracts/query_bundle.schema.json",
+  "title": "QueryBundle",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "topic",
+    "round",
+    "strategy",
+    "rationale",
+    "core_terms",
+    "synonyms",
+    "narrow_terms",
+    "exclude_terms",
+    "domain_shift_terms",
+    "search_queries"
+  ],
+  "properties": {
+    "topic": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Original user topic input"
+    },
+    "round": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3,
+      "description": "1=initial, 2..3=iterations"
+    },
+    "strategy": {
+      "type": "string",
+      "enum": ["initial", "broaden", "narrow", "shift_domain"],
+      "description": "How this bundle was generated"
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Short explanation of what changed from last round"
+    },
+    "core_terms": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Core terms for retrieval"
+    },
+    "synonyms": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 30,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Synonyms/near-synonyms"
+    },
+    "narrow_terms": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 20,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Terms to narrow the scope (constraints)"
+    },
+    "exclude_terms": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 20,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Terms to exclude (noise control)"
+    },
+    "domain_shift_terms": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 20,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Alternate vocabulary from adjacent domains"
+    },
+    "search_queries": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 10,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Ready-to-run query strings for providers"
+    }
+  }
+}
