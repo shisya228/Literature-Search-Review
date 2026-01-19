@@ -1,0 +1,35 @@
+[
+  {
+    "provider": "arxiv",
+    "id": "2301.00001",
+    "title": "Narratives of Climate Adaptation in Coastal Communities",
+    "authors": [
+      "A. Researcher",
+      "B. Scholar"
+    ],
+    "published_year": 2023,
+    "abstract": "This paper analyzes coastal adaptation narratives using qualitative interviews.",
+    "url": "https://arxiv.org/abs/2301.00001",
+    "pdf_url": "https://arxiv.org/pdf/2301.00001.pdf",
+    "categories": [
+      "cs.CL"
+    ],
+    "score": null
+  },
+  {
+    "provider": "arxiv",
+    "id": "2302.00002",
+    "title": "Storytelling and Resilience Planning",
+    "authors": [
+      "C. Author"
+    ],
+    "published_year": 2022,
+    "abstract": "We explore how storytelling influences resilience policy design.",
+    "url": "https://arxiv.org/abs/2302.00002",
+    "pdf_url": null,
+    "categories": [
+      "cs.AI"
+    ],
+    "score": null
+  }
+]

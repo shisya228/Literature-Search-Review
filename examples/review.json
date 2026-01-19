@@ -1,0 +1,42 @@
+{
+  "topic": "climate adaptation narratives",
+  "mode": "theme",
+  "title": "Literature Review: Climate Adaptation Narratives",
+  "abstract": "This review synthesizes how storytelling and discourse shape climate adaptation practices.",
+  "sections": [
+    {
+      "heading": "Narratives and Community Adaptation",
+      "content_markdown": "Narratives situate adaptation as a collective response and shape how communities interpret climate risk.",
+      "paper_ids": [
+        "2301.00001"
+      ]
+    },
+    {
+      "heading": "Storytelling in Planning",
+      "content_markdown": "Planning processes leverage storytelling to align stakeholders and frame resilience goals.",
+      "paper_ids": [
+        "2302.00002"
+      ]
+    },
+    {
+      "heading": "Gaps and Future Directions",
+      "content_markdown": "Current studies emphasize narrative framing but leave room for cross-cultural comparative work.",
+      "paper_ids": [
+        "2301.00001",
+        "2302.00002"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "paper_id": "2301.00001",
+      "citation_text": "A. Researcher, B. Scholar (2023). Narratives of Climate Adaptation in Coastal Communities.",
+      "url": "https://arxiv.org/abs/2301.00001"
+    },
+    {
+      "paper_id": "2302.00002",
+      "citation_text": "C. Author (2022). Storytelling and Resilience Planning.",
+      "url": "https://arxiv.org/abs/2302.00002"
+    }
+  ]
+}
