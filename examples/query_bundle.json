@@ -1,0 +1,25 @@
+{
+  "topic": "climate adaptation narratives",
+  "round": 1,
+  "strategy": "initial",
+  "rationale": "Initial query formulation.",
+  "core_terms": [
+    "climate adaptation",
+    "narratives"
+  ],
+  "synonyms": [
+    "storytelling",
+    "resilience",
+    "adaptation discourse",
+    "climate communication",
+    "community narratives"
+  ],
+  "narrow_terms": [],
+  "exclude_terms": [],
+  "domain_shift_terms": [],
+  "search_queries": [
+    "climate adaptation AND narratives",
+    "storytelling AND resilience AND climate",
+    "climate communication adaptation discourse"
+  ]
+}
